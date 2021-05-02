@@ -1,0 +1,14 @@
+on: [push]
+
+jobs:
+  notion_learn_section:
+    runs-on: ubuntu-latest
+    name: A job to fetch and update learn section from notion
+    steps:
+      - name: Learn Section action step
+        id: learn_section
+        uses: actions/github-action-learn-section-notion@v0.0.1
+        with:
+          database_id: "cc91ba7838a84d00acee8bbecfd855eb"
+      - name: Get the operation status
+        run: echo "The operation was ${{ steps.hello.outputs.success }}"
