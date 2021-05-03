@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: Learn Section action step
         id: learn_section
-        uses: devorein/github-action-learn-section-notion@v0.0.5
+        uses: devorein/github-action-learn-section-notion@v0.0.6
         with:
           database_id: "6c46c1eb-c5a4-4db7-8e3f-5fe285071ab6"
