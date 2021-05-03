@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@main
       - name: Learn Section action step
         id: learn_section
-        uses: devorein/github-action-learn-section-notion@v0.0.18
+        uses: devorein/github-action-learn-section-notion@v0.0.19
         with:
           database_id: "6c46c1eb-c5a4-4db7-8e3f-5fe285071ab6"
           token_v2: ${{ secrets.NOTION_TOKEN_V2 }}
