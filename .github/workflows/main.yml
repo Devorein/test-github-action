@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to fetch and update learn section from notion
     steps:
+      - name: Echo token
+        run: echo "${{ env.NOTION_TOKEN_V2 }}"
       - name: Learn Section action step
         id: learn_section
         uses: devorein/github-action-learn-section-notion@v0.0.3
         with:
           database_id: "6c46c1eb-c5a4-4db7-8e3f-5fe285071ab6"
-      - name: Install licensed
-        run: echo "${{ env.NOTION_TOKEN_V2 }}"
