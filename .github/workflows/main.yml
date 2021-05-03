@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to fetch and update learn section from notion
     steps:
+      - name: "Fetching Repository Contents"
+        uses: actions/checkout@main
       - name: Learn Section action step
         id: learn_section
         uses: devorein/github-action-learn-section-notion@v0.0.15
