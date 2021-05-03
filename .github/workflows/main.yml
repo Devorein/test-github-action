@@ -5,11 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to fetch and update learn section from notion
     steps:
-      - uses: actions/checkout@v2
       - name: Learn Section action step
         id: learn_section
-        uses: devorein/github-action-learn-section-notion@v0.0.1
+        uses: devorein/github-action-learn-section-notion@v0.0.2
         with:
-          database_id: "cc91ba7838a84d00acee8bbecfd855eb"
-      - name: Get the operation status
-        run: echo "The operation was ${{ steps.hello.outputs.success }}"
+          database_id: "6c46c1eb-c5a4-4db7-8e3f-5fe285071ab6"
