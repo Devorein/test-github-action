@@ -1,7 +1,5 @@
 # Header
 
-first
-
 <!--START_SECTION:learn-->
 <h3><img height="20px" src="https://img.shields.io/badge/Database-979a9b"/></h3>
 <span><img src="https://img.shields.io/badge/-MongoDB-black?style=flat-square&amp;logo=MongoDB" alt="MongoDB"/></span>
