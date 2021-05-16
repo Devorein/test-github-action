@@ -17,4 +17,3 @@ first
 <hr>
 <!--END_SECTION:learn-->
 
-second
